@@ -1,0 +1,47 @@
+{
+  "homepage": "http://powerslab1.github.io/VisualQualifyingTask",
+  "name": "visualqualifyingtask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build && rimraf build/**/*.map",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/register": "^7.14.5",
+    "browserify": "^16.5.2",
+    "gh-pages": "^2.2.0",
+    "history": "^4.10.1",
+    "html-loader": "^0.5.5",
+    "https": "^1.0.0",
+    "lodash": "^4.17.21",
+    "query-string": "^6.14.1",
+    "querystring": "^0.2.1",
+    "questlib": "^1.0.11",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.4",
+    "stringify": "^5.2.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {}
+}
